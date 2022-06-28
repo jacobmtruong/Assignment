@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="nav-bar">
+        <h1>Dojonary</h1>
+        <input type="text" style="width: 200px ;" name="" id="" placeholder="Search">
+        <div id="pop">
+            <h4>This page says Ninja was liked </h4>
+            <p>Ok</p>
+        </div>
+        <button onclick="Logout(this)">Login</button>
+    </div>
+    <div id="container">
+        <div id="column1">
+            <div class="ninja-box">
+                <div class="ninja-left">
+                    <ul>
+                        <li><h1>ninja</h1></li>
+                        <li><h4><i>noun</i></h4></li>
+                        <li>Plural: <i>ninjas</i></li>
+                    </ul>
+                    <button onclick="hitLike()">13 likes</button>
+                </div>
+                <div class="ninja-right">
+                    <h4>A practitioner skilled in the <a href="#">Japanese</a> are of <a href="#">ninjutsu</a></h4>
+                </div>
+            </div>
+            <div class="ninja-box">
+                <div class="ninja-left">
+                    <ul>
+                        <li><h1>ninja</h1></li>
+                        <li><h4><i>noun</i></h4></li>
+                        <li>Plural: <i>ninjas</i></li>
+                    </ul>
+                    <button>37 likes</button>
+                </div>
+                <div class="ninja-right">
+                    <h4>A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</h4>
+                </div>s
+            </div>
+        </div>
+        <div id="column2">
+            <h2>Dojonary is defined by <b>YOU</b></h2>
+            <button onclick="remove(this)" >Add Definition</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
